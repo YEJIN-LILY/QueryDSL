@@ -144,7 +144,7 @@ public class QuerydslBasicTest {
 
         //페이징에서 사용
         /*
-        fetchResults() deprecated
+        () deprecated
         fetchResults() : Get the projection in QueryResults form.
         Make sure to use fetch() instead if you do not rely on the QueryResults.getOffset() or
         QueryResults.getLimit(), because it will be more performant.
